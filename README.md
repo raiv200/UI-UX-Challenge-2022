@@ -14,7 +14,7 @@
 * CSS3
 * Java Script
 
-### UI Resources used
+### UI Resources Used
 * Images - (Google Images)
 * SVG Icons - (Iconscout/unicons)
 * Fonts- (Google fonts)

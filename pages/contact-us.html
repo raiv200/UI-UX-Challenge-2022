@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="./responsive.css" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/responsive.css" />
+    <link rel="stylesheet" href="../styles/contact-us.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
@@ -21,7 +22,7 @@
     <header class="header">
         <a href="/">
             <div class="logo">
-                <img src="./assets/alpha-logo.png" />
+                <img src="../assets/alpha-logo.png" />
             </div>
         </a>
         <div class="nav">
@@ -44,11 +45,60 @@
         </div>
 
         <div class="btn">
-            <a href="contact-us.html">
+            <a href="./contact-us.html">
                 <button>Contact Us</button>
             </a>
         </div>
     </header>
-    
+    <!-- Contact Us Section -->
+    <section class="contact">
+        <div class="contact-left">
+            <div class="contact-quote">
+                <h2>We are always ready to help.</h2>
+                <p>If You have any query related your purchasing or need any technical support. Just Fill up the form
+                    and our team will be get back to you within 24 hours.</p>
+            </div>
+            <div class="contact-content">
+                <p><i class="uil uil-phone-volume"></i> +91 123-456-7890</p>
+                <p><i class="uil uil-envelope-add"></i> info@alpha.com</p>
+                <p><i class="uil uil-map-marker"></i> New Delhi , India 110001</p>
+            </div>
+            <div class="contact-social">
+                <a href="https://www.facebook.com/raiv200/" target="_blank"><i class="uil uil-twitter"></i></a>
+                <a href="https://facebook.com/raiv200" target="_blank"><i class="uil uil-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/vikas-rai-7a5309202/" target="_blank"><i
+                        class="uil uil-linkedin"></i></a>
+            </div>
+
+        </div>
+        <div class="contact-right">
+            <div class="contact-form">
+                <form>
+                    <div class="contact-input">
+                        <label for="first-name">First Name</label>
+                        <input id=" first-name" type="text" name="first-name" placeholder="Enter your first name" />
+                    </div>
+                    <div class="contact-input">
+                        <label for="last-name">Last Name</label>
+                        <input id=" last-name" type="text" name="last-name" placeholder="Enter your last name" />
+                    </div>
+                    <div class="contact-input">
+                        <label for="email">Your Email</label>
+                        <input id=" email" type="email" name="email" placeholder="Enter your email" />
+                    </div>
+                    <div class="contact-input">
+                        <label for="message">Your Message</label>
+                        <textarea id="message"  rows="5" cols="50" name="message" placeholder="Enter your message"></textarea>
+                    </div>
+                    <div class="button">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
 </body>
+
 </html>

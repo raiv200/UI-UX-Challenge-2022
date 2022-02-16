@@ -643,6 +643,10 @@ body {
   padding:20px 40px;
   margin:20px 10px;
 }
+.promo-container > div:hover{
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  transition: all 0.3s ease-in;
+}
 .promo-content >p {
   color:#000000;
   font-size: 1.3rem;
@@ -789,6 +793,26 @@ body {
   }
 }
 
+/* Styling the scroll bar  */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6c6dfd;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #4444d1;
+}
+
 
 .uil-battery-bolt{
   color:#0ED5FF;
@@ -815,10 +839,18 @@ body {
 .uil-twitter{
  color:#1DA1F2;
 }
-.uil-github{
- color:#ffffff ;
+.uil-facebook-f{
+ color:#2e89ff ;
 }
 .uil-linkedin{
  color:#0a66c2 ;
 }
-
+.uil-phone-volume{
+  color:#4444d1;
+}
+.uil-envelope-add{
+  color:#4444d1;
+}
+.uil-map-marker{
+  color:#4444d1;
+}
