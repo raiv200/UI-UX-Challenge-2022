@@ -3,7 +3,7 @@
 ### Project Task
 **To design a website for showcasing any electronic gadget like Smartphone , Tablet , Smart Watch PC or Laptop etc.**
 
-[Live Demo URL](https://developerstuffs.com)
+[Live Demo URL](https://uiux-challenge-vikas-rai.netlify.app/)
 
 
 ![Poject Final View](./assets/project-image.PNG)
@@ -18,9 +18,9 @@ The Home Page Consist of 8 section:
 * Header
 * Hero Section
 * Models Section
-* Model Comparison Section
+* Models Comparison Section
 * Features section
-* Service Section
+* Services Section
 * Promo Section
 * Footer
 
