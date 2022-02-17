@@ -8,13 +8,31 @@
 
 ![Poject Final View](./assets/project-image.PNG)
 
+### Project Overview
+
+It has two Pages mainly:
+ * Home Page
+ * Contact Us page
+
+The Home Page Consist of 8 section:
+* Header
+* Hero Section
+* Models Section
+* Model Comparison Section
+* Features section
+* Service Section
+* Promo Section
+* Footer
+
 
 ### Languages Used
+
 * HTML5
 * CSS3
 * Java Script
 
 ### UI Resources Used
+
 * Images - (Google Images)
 * SVG Icons - (Iconscout/unicons)
 * Fonts- (Google fonts)
