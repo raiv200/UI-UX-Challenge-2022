@@ -136,6 +136,9 @@
   .hero-section{
   margin-top:100px;
   }
+  .hero-section >h4{
+  width:100px;
+  }
   .model-section > h2 {
     width: 85%;
     font-size: 2.2rem;
