@@ -153,6 +153,10 @@
   .hero-content > p {
     font-size: 1.4rem;
   }
+   .hero-content > h4 {
+    font-size: 0.7rem;
+  }
+  
   .model-section {
     width: 85%;
   }
